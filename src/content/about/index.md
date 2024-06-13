@@ -1,7 +1,7 @@
 ---
 title: This is an example of a static website with CMS
 meta_title: About
-image: /public/images/1.jpg
+image: /images/1.jpg
 things:
   title: "A few things here:"
   items:
