@@ -66,4 +66,4 @@ collections:
             widget: 'list'
             fields:
               - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: 'Description', name: 'Description', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
