@@ -2,10 +2,9 @@
 title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
 meta_title: "About"
 image: "/images/author.png"
-draft: false
 
-what_i_do:
-  title: "What I Do"
+things:
+  title: "A few things here:"
   items:
   - title: "Content Writing"
     description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
