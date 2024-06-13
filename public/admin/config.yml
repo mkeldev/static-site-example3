@@ -1,7 +1,7 @@
 backend:
    name: github
 #   name: test-repo
-   repo: mkel/static-site-example
+   repo: mkeldev/static-site-example3
    branch: main
    auth_endpoint: auth
 media_folder: 'public/images'
