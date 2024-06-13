@@ -2,7 +2,7 @@
   "site": {
     "title": "Static CMS Site example",
     "base_url": "https://static-site-example3.netlify.app",
-    "base_path": "",
+    "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
