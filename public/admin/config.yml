@@ -1,0 +1,69 @@
+backend:
+   name: github
+#   name: test-repo
+   repo: mkel/static-site-example
+   branch: main
+   auth_endpoint: auth
+media_folder: 'public/images'
+collections:
+  - name: 'post' # Used in routes, e.g., /admin/collections/blog
+    label: 'Post' # Used in the UI
+    folder: 'src/content/posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., yyyy-MM-dd-title.md
+    fields:  # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - label: 'Authors'
+        name: 'authors'
+        widget: 'list'
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+      - label: 'Categories'
+        name: 'categories'
+        widget: 'list'
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'author'
+    label: 'Author'
+    folder: 'src/content/authors'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Social Media'
+        name: 'social'
+        widget: 'list'
+        fields:
+          - { label: 'Facebook', name: 'facebook', widget: 'string' }
+          - { label: 'X', name: 'x', widget: 'string' }
+          - { label: 'Instagram', name: 'instagram', widget: 'string' }
+          - { label: 'LinkedIn', name: 'linkedin', widget: 'string' }
+  - name: 'about'
+    label: 'About'
+    folder: 'src/content/about'
+    create: false
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Meta title', name: 'meta_title', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Things'
+        name: 'things'
+        widget: 'object'
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Items'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'Description', widget: 'string' }
