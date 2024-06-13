@@ -15,9 +15,10 @@ const {
   logo_text: string;
   title: string;
 } = config.site;
+
 ---
 
-<a href="/" class="navbar-brand block">
+<a href={import.meta.env.BASE_URL + "/"} class="navbar-brand block">
   {
     src || logo ? (
       <Image

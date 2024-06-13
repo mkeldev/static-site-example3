@@ -4,8 +4,8 @@
     "base_url": "https://mkel.github.io",
     "base_path": "/static-site-example",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "/static-site-example/images/favicon.png",
+    "logo": "/static-site-example/images/logo.png",
     "logo_width": "200",
     "logo_height": "34",
     "logo_text": "logo"
@@ -18,7 +18,7 @@
 
   "metadata": {
     "meta_author": "mkel",
-    "meta_image": "/images/og-image.png",
+    "meta_image": "/static-site-example/images/og-image.png",
     "meta_description": "Static CMS Site example using Astro"
   },
 
