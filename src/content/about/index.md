@@ -15,7 +15,9 @@ things:
         for search engines and social media platforms. The content must be
         indexable for search engines.
     - title: Analytics
-      description: There must be a way to see basic metrics of the visit counts.
+      description: There must be a way to see basic metrics of the visit counts. It
+        should not leak the data to ad platforms and should not require a cookie
+        banner.
     - title: No servers or databases to manage
       description: I don't want to have any infrastructure I need to keep up to date
         or worry about.
@@ -35,10 +37,10 @@ There are many different technologies that could be used to meet the requirement
 Briefly, the solution is based the following components:
 
 - Astro for building a [static website](/2024-06-14-static-vs-dynamic/)
-
 - StaticCMS for [managing the content](/2024-06-14-cms/)
 - GitHub for storing the website and content
 - Netlify for [hosting](/2024-06-14-serving-the-content/)
-- GoatCounter for analytics
+- GoatCounter for [analytics](/2024-06-14-analytics/)
+
 
 You can read the details in the separate posts on this website.
