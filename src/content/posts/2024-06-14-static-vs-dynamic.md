@@ -1,5 +1,5 @@
 ---
-title: Static vs dynamic
+title: Static website
 description: Fundamental tech choice
 date: 2024-06-14T13:12:07
 image: /images/dall·e-2024-06-14-10.55.49-design-a-simplistic-and-naive-logo-for-an-example-static-website-with-cms-optimized-for-a-size-of-1200x630.-the-logo-should-contain-only-one-graphica.webp
