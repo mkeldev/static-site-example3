@@ -40,6 +40,7 @@ collections:
       - label: 'Social Media'
         name: 'social'
         widget: 'list'
+        required: false,
         fields:
           - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
           - { label: 'X', name: 'x', widget: 'string', required: false }
