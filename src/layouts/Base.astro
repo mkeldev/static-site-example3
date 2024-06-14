@@ -176,5 +176,18 @@ const { title, meta_title, description, image, noindex, canonical } =
       <slot />
     </main>
     <Footer />
+    {
+      config.site.goat_counter_code && (
+        <script>
+          window.goatcounter = {no_onload: true}
+          document.addEventListener('astro:page-load', () => {
+            window.goatcounter.count({
+              path: location.pathname + location.search + location.hash,
+            })
+          }, { once: false });
+          </script>
+    <script data-goatcounter={`https://${config.site.goat_counter_code}.goatcounter.com/count`} async src="//gc.zgo.at/count.js"></script>
+      )
+    }
   </body>
 </html>
