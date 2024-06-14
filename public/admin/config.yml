@@ -31,6 +31,7 @@ collections:
     label: 'Author'
     folder: 'src/content/authors'
     create: true
+    delete: true
     slug: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -39,10 +40,11 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'Social Media'
         name: 'social'
-        widget: 'list'
+        widget: 'object'
+        required: false
         fields:
           - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
-          - { label: 'X', name: 'x', widget: 'string', required: false }
+          - { label: 'Twitter', name: 'twitter', widget: 'string', required: false }
           - { label: 'Instagram', name: 'instagram', widget: 'string', required: false }
           - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false }
   - name: 'about'
