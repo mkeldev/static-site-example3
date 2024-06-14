@@ -30,14 +30,17 @@ things:
 ---
 I had a need for a certain type of website with specific requirements.
 
-There are many different technologies that could be used to meet the requirements. This website is an example implementation of one possible approach. 
+There are many different technologies that could be used to meet the requirements. This website is an example implementation of one possible approach.
 
 Briefly, the solution is based the following components:
 
-- Astro for building a static website
-- StaticCMS for managing the content
+- Astro for building a [static website](/2024-06-14-cms/)
+
+- StaticCMS for [managing the content](/2024-06-14-cms/)
+
 - GitHub for storing the website and content
-- Netlify for hosting
+- Netlify for [hosting](/2024-06-14-serving-the-content/)
+
 - GoatCounter for analytics
 
 You can read the details in the separate posts on this website.
