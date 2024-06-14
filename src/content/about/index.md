@@ -1,7 +1,7 @@
 ---
 title: This is an example of a static website with CMS
 meta_title: An example of a static website with CMS and analytics
-image: /images/1.jpg
+image: /images/dall·e-2024-06-14-11.06.15-design-.webp
 things:
   title: "Requirements I have for the website:"
   items:
