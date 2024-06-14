@@ -41,10 +41,10 @@ collections:
         name: 'social'
         widget: 'list'
         fields:
-          - { label: 'Facebook', name: 'facebook', widget: 'string' }
-          - { label: 'X', name: 'x', widget: 'string' }
-          - { label: 'Instagram', name: 'instagram', widget: 'string' }
-          - { label: 'LinkedIn', name: 'linkedin', widget: 'string' }
+          - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
+          - { label: 'X', name: 'x', widget: 'string', required: false }
+          - { label: 'Instagram', name: 'instagram', widget: 'string', required: false }
+          - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false }
   - name: 'about'
     label: 'About'
     folder: 'src/content/about'
