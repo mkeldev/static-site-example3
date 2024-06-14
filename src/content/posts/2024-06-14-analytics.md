@@ -1,5 +1,5 @@
 ---
-title: Analytics
+title: Analytics and more
 description: Setup page analytics
 date: 2024-06-14T15:59:07
 image: /images/image-2.jpg
